@@ -3,7 +3,7 @@
   'use strict';
 
   angular
-    .module('mytodo2')
+    .module('psi')
     .constant('malarkey', malarkey)
     .constant('moment', moment);
 

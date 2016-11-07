@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('mytodo2')
+    .module('psi')
     .run(runBlock);
 
   /** @ngInject */

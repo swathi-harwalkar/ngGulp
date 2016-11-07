@@ -1,0 +1,28 @@
+{
+	"test_centers":[
+		{
+			"name":"Cambridge Test Center",
+			"rating":4,
+			"address1":"2002, Melbourne St NE",
+			"address2":"Bellevue, WA",
+			"distance":0.5,
+			"available":true
+		},
+		{
+			"name":"Cambridge Test Center",
+			"rating":4,
+			"address1":"Archway house, Melbourne St NE",
+			"address2":"Bellevue, WA",
+			"distance":3,
+			"available":true
+		},
+		{
+			"name":"Cambridge Test Center",
+			"rating":4,
+			"address1":"Archary house, Melbourne St NE",
+			"address2":"Bellevue, WA",
+			"distance":5,
+			"available":false
+		}
+	]
+}

@@ -6,9 +6,12 @@
     .controller('MainController', MainController);
 
   /** @ngInject */
-  function MainController() {
-    
+  function MainController(TestCenterService) {
+    var vm = this;
 
+    TestCenterService.search().then(function(response){
+      vm.testCenters =  response;   
+    });
     
   }
 })();

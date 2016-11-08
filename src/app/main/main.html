@@ -65,13 +65,13 @@
               </li>
               <form class="col-*-3">
                 <li class="form-group">
-                  <input type="text" placeholder="AWS Cerificaion" class="form-control">
+                  <input type="text" placeholder="AWS Cerificaion" class="form-control" ng-model="main.searchObj.name">
                 </li>
                 <li class="form-group">
-                 <input type="text" placeholder="24,West Street, LA" class="form-control">
+                 <input type="text" placeholder="24,West Street, LA" class="form-control" ng-model="main.searchObj.location">
                </li>
                <li class="form-group">
-                 <select class="form-control">
+                 <select class="form-control" ng-model="main.searchObj.distance">
                   <option value="5">Within 5 miles</option>
                   <option value="10">Within 10 miles</option>
                   <option value="15">Within 15 miles</option>
@@ -79,7 +79,7 @@
                 </select>
               </li>
               <li>
-                <button type="submit" class="btn btn-primary btn-block"> Search </button>
+                <button type="submit" class="btn btn-primary btn-block" ng-click="main.search()"> Search </button>
               </li>
             </form> 
             <hr>

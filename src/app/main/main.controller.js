@@ -14,8 +14,9 @@
     vm.searchObj.distance  = "5";
 
     vm.search = function(){
-      TestCenterService.search().then(function(response){
-        vm.testCenters =  response;   
+      vm.testCenters = [];
+      TestCenterService.search(vm.searchObj.testId).then(function(testCenters){
+        vm.testCenters =  testCenters;   
       });
     }
     
